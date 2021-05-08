@@ -24,4 +24,4 @@ def calculator(i, i0, *args):
             rezult *= v
     return rezult
 
-calculator('+', 3, 4, 5)
+assert calculator('+', 3, 4, 5) == 12
